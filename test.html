@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Text Overlay</title>
+    <style>
+        .overlay-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 180px;
+            max-width: 1000px;
+            margin: 1px;
+        }
+
+        .overlay-item {
+            background-color: rgba(132, 154, 128, 0.9);
+            padding: 10px;
+            border-radius: 1px;
+            text-align: center;
+        }
+
+        .overlay-item img {
+            width: 280px;
+            height: 200px;
+            max-height: 100px;
+            object-fit: cover;
+            margin-bottom: 1px;
+        }
+
+        .overlay-text {
+            font-size: 14px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body style="background-color: lightgreen;">
+
+<div class="overlay-grid">
+    <div class="overlay-item">
+        <img src="img/1741949095619.jpg" alt="Image 1">
+        <div class="overlay-text">Recycling conserves natural resources.</div>
+    </div>
+    <div class="overlay-item">
+        <img src="img/1741949095637.jpg" alt="Image 2">
+        <div class="overlay-text">Proper disposal reduces pollution.</div>
+    </div>
+    <div class="overlay-item">
+        <img src="img/1741949095671.jpg" alt="Image 3">
+        <div class="overlay-text">E-waste recycling supports sustainability.</div>
+    </div>
+    <div class="overlay-item">
+        <img src="img/1741949095697.jpg" alt="Image 4">
+        <div class="overlay-text">Recover valuable materials through recycling.</div>
+    </div>
+    <div class="overlay-item">
+        <img src="img/1741949095680.jpg" alt="Image 5">
+        <div class="overlay-text">Reduce landfill waste with proper e-waste handling.</div>
+    </div>
+    <div class="overlay-item">
+        <img src="img/1741949095742.jpg" alt="Image 6">
+        <div class="overlay-text">Promote community awareness and actions.</div>
+    </div>
+</div>
+
+</body>
+</html>
